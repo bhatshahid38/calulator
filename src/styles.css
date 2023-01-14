@@ -1,0 +1,29 @@
+#calculator-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 110px;
+  background-color: #0078d4;
+}
+.button-container .common {
+  margin: 20px;
+  background-color: blueviolet;
+}
+.calculator-display input {
+  padding: 30px 25px;
+  background-color: hsl(0deg 0% 96%);
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.common button {
+  padding: 15px 30px;
+  background-color: ghostwhite;
+  border-radius: 20px;
+}
+.cal-row1 button {
+  border-radius: 20px;
+  padding: 15px 28px;
+}
